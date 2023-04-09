@@ -2,14 +2,18 @@
 This is a simple web application that generates random passwords based on user's preferences such as lowercase, uppercase, number, symbols, exclude duplicate and include spaces.
 
 <h3>Features</h3>
-Users can customize their preferred settings such as lowercase, uppercase, number, symbols, exclude duplicate and include spaces.
-Password strength indicator informs the strength of the user's generated password.
-Users can copy their generated password to the clipboard.
+<ul>
+<li>Users can customize their preferred settings such as lowercase, uppercase, number, symbols, exclude duplicate and include spaces.</li>
+<li>Password strength indicator informs the strength of the user's generated password.</li>
+<li>Users can copy their generated password to the clipboard.</li>
+</ul>
 
 <h3>Technologies Used</h3>
-HTML
-CSS
-JavaScript
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
 
 <h3>Demo</h3>
 You can view a live demo of the Random Password Generator here.

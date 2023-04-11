@@ -141,3 +141,62 @@ body {
   bottom: 10px;
   right: 20px;
 }
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin: 1.25rem 0.75rem;
+  }
+
+  .wrapper .input-box {
+    margin-bottom: 1.25rem;
+  }
+
+  .pass-length .details {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pass-settings .options .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+
+  .wrapper {
+    margin: 1.25rem 0.75rem;
+  }
+
+  .wrapper .input-box input {
+    font-size: 0.88rem;
+  }
+
+  .pass-length input {
+    height: 3px;
+  }
+
+  .pass-length .details {
+    margin-top: 1.25rem;
+  }
+
+  .pass-settings .options .option label {
+    font-size: 0.88rem;
+  }
+  .pass-settings .options .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: calc(100% / 2);
+  }
+
+  .generate-btn {
+    font-size: 0.88rem;
+  }
+}
